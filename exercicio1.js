@@ -1,14 +1,6 @@
-function sub(n1, n2) {
-    return n1 - n2;
-}
+let meuNome = "João";
+let minhaIdade = 30;
+let minhaCidade = "Pomerode";
 
-function mul(n1, n2) {
-    return n1 * n2;
-}   
-
-function div(n1, n2) {
-    return n1 / n2;
-}   
-
-let resultado = sub(10, 5);
-console.log(resultado);
+// Exiba as informações usando template literals
+console.log(`Olá, meu nome é ${meuNome}, tenho ${minhaIdade} anos e moro em ${minhaCidade}.`);
